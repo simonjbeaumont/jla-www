@@ -255,7 +255,8 @@ blockquote {
 }
 blockquote cite {
   display: block;
-  font-size: 13px;
+  font-size: 18px !important;
+  font-weight: bold;
   color: #555555;
 }
 blockquote cite:before {
