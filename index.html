@@ -498,15 +498,15 @@
         <div class="twelve columns">
           <div class="contact-form-container">
             <!-- Row Layout for forms -->
-            <form id="contact-form">
+            <form id="contact-form" action="https://getsimpleform.com/messages?form_api_token=4ebad33c65d03d8fd33015b959d3702f" method="post">
               <div class="row">
                 <div class="eight columns">
                   <textarea name="textarea" id="textarea" cols="30" rows="11" placeholder="Message"></textarea>
                 </div>
                 <div class="four columns">
-                  <input type="text" id="Name" placeholder="Name"  />
-                  <input type="email" id="Email" placeholder="Email" />
-                  <button type="submit" class="button black large" href="#">Send Message</button>
+                  <input type="text" id="Name" name="Name" placeholder="Name"  />
+                  <input type="email" id="Email" name="Email" placeholder="Email" />
+                  <button type="submit" id="send_button" class="button black large">Send Message</button>
                 </div>
               </div>
             </form>
