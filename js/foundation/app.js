@@ -19,6 +19,12 @@
 
     $('input, textarea').placeholder();
   });
+    /*
+        Background slideshow
+    */
+    $('.slideshow').backstretch(
+      "img/header.jpg"
+    , {duration: 3000, fade: 750});
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
   // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'both'});

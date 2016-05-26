@@ -5210,7 +5210,7 @@ ________________________________________________________________________________
   border-top: 3px solid #fafafa;
 }
 .navigation-container .lead-title {
-  color: #4b4b4b;
+  color: #ffffff;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin-top: 35px;
@@ -5378,6 +5378,7 @@ ________________________________________________________________________________
   border-color: white transparent transparent transparent;
   position: absolute;
   z-index: 99;
+
 }
 
 .slider-triangle-bottom {
@@ -5505,7 +5506,6 @@ ________________________________________________________________________________
 .slider-container.slider-1 {
   position: relative;
   height: 580px;
-  margin-top: 40px;
 }
 
 .slider-container.slider-2 {
